@@ -38,7 +38,7 @@ Runs all modules except auto-graph build.
 
 ## Config
 
-Config file: `~/.codex-optimizer/config.json`
+Config file: `~/.codex/config.json`
 
 ```json
 {
@@ -61,7 +61,7 @@ Config file: `~/.codex-optimizer/config.json`
 
 ## Output
 
-All JSON output to `~/.codex-optimizer/`:
+All JSON output to `~/.codex/`:
 - `session.json` — current session data
 - `graph.json` — code graph (nodes, edges)
 - `report-YYYY-MM-DD.json` — daily stats and savings

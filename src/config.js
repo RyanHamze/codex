@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const configDir = path.join(process.env.HOME || process.env.USERPROFILE, '.codex-optimizer');
+const configDir = path.join(process.env.HOME || process.env.USERPROFILE, '.codex');
 
 export class Config {
   constructor() {
