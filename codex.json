@@ -1,0 +1,16 @@
+{
+  "filterRules": {
+    "stripPassedTests": true,
+    "stripProgressBars": true,
+    "stripVerboseLogs": true,
+    "maxOutputLines": 50
+  },
+  "graphOptions": {
+    "autoRebuild": true,
+    "supportedLanguages": ["javascript", "python", "typescript"]
+  },
+  "reportOptions": {
+    "saveDailyBreakdown": true,
+    "trackSessionCosts": true
+  }
+}

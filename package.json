@@ -1,0 +1,29 @@
+{
+  "name": "codex",
+  "version": "1.0.0",
+  "description": "Token usage monitor, CLI filter, repo graph, and report aggregator for Codex",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "codex": "./index.js"
+  },
+  "scripts": {
+    "start": "codex",
+    "monitor": "codex monitor",
+    "report": "codex report"
+  },
+  "keywords": [
+    "codex",
+    "token",
+    "optimization",
+    "cli-filter",
+    "code-graph"
+  ],
+  "author": "RyanHamze",
+  "license": "MIT",
+  "dependencies": {
+    "tree-sitter": "^0.20.10",
+    "tree-sitter-javascript": "^0.20.0",
+    "tree-sitter-python": "^0.20.0"
+  }
+}
